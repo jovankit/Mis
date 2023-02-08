@@ -84,7 +84,7 @@ class MapSampleState extends State<MapSample> {
     // Generating the list of coordinates to be used for
     // drawing the polylines
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyCOTvtj5-rnF0z1k9yETS79kDax8Qzhvio", // Google Maps API Key
+      "Google Maps API Key ", // Google Maps API Key
       PointLatLng(startLatitude, startLongitude),
       PointLatLng(destinationLatitude, destinationLongitude),
       travelMode: TravelMode.transit,
